@@ -5,8 +5,7 @@ while (charater is not end-of-file indicator)
 output the character just read
 read a character */
 
-main()
-{
+main() {
   char c;
   
   c = getchar();
