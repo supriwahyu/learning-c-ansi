@@ -1,3 +1,12 @@
+#include <stdio.h>
+
+char *month_name(int n);
+
+int main() {
+    printf("%s\n", month_name(2));
+    return 0;
+}
+
 /* month_name: return name of n-th month */
 char *month_name(int n) {
     static char *name[] = {
